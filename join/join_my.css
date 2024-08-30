@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'SokchoBadaBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/SokchoBadaBatang.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'SokchoBadaBatang';
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: darkgray;
+}
+
+#container {
+    width: 540px;
+    margin: 180px auto 0;
+    background-color: gray;
+    border-radius: 10%;
+}
+
+th { 
+    text-align: right;
+    font-size: 15px;
+}
+
+.table {
+    margin: 10px auto;
+    padding: 40px;
+}
+
+textarea {
+    width: 200px;
+    height: 60px;
+    resize: none;
+}
+
+
+.buttons {
+    margin: 5px 0 0 0;
+    text-align: center;
+  }

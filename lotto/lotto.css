@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    margin: auto;
+    font-size: 32px;
+    flex-wrap: wrap;
+    
+}
+
+
+
+/* .numText {
+    display: flex;
+    border: 1px solid black;
+    width: 500px;
+    height: 50px;
+    border-radius: 20px;
+} */
+
+.numbers{
+    width: 500px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+#tail > div {
+    padding: 10px;
+}
+
+#draw, #reset {
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: darkorange;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:active {
+    font-size: 2em;
+    width: 105px;
+    height: 42px;
+}
+
+button:hover{
+    background-color: beige;
+}
+
